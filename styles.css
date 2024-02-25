@@ -1,0 +1,64 @@
+/*common */
+body {
+    background-color: #f5e907;
+    color: #0b0b0b;
+    font-family: sans-serif;
+    text-align: center;
+}
+/*index.html css*/
+
+.startButton {
+            padding: 15px 30px;
+            font-size: 20px;
+            background-color: #3498db; /* Set the background color as needed */
+            color: #fff; /* Set the text color as needed */
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+.startButton:hover {
+            background-color: #2980b9; /* Change color on hover */
+            color: #fff; /* Change text color on hover */
+        }
+
+
+
+
+/*Game html css*/
+
+canvas {
+    width: 450px;
+    height: 450px;
+    background-color: #78958b; 
+    /* border: 2px solid #34491d; */
+    box-shadow: inset 0 3px 6px rgba(132, 75, 75, 0.557), 0 4px 6px rgba(115, 80, 40, 0.45);
+  	border-radius: 10px;
+
+}
+.socreLabel{
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: inline;
+    margin-bottom: 10px;
+}
+.scoreTextDiv{
+    width: 50px;
+    height: 30px;
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.restart-button{
+  border: 1px solid white;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #04AA6D;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+
+}
